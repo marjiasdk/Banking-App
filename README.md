@@ -28,9 +28,9 @@ CREATE TABLE users (
 INSERT INTO users (card_number, password, balance) VALUES
 ('1234567890123456', 'password1', 1000.00),
 ('9876543210987654', 'password2', 5000.00);
-
 ```
 Be sure to update the database connection details in the banking_app.py file to match your own MySQL server settings.
+<br></br>
 <i> I have omitted the password from my own code for privacy reasons, simply replace the empty space with your password to your MYSQL connection. </i>
 
 # Usage
