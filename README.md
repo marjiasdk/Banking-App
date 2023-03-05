@@ -21,9 +21,9 @@ USE banking;
 
 CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    card_number VARCHAR(16) NOT NULL,
-    password VARCHAR(16) NOT NULL,
-    balance FLOAT(10, 2) NOT NULL
+    card_number VARCHAR(16)
+    password VARCHAR(255)
+    balance DECIMAL(10, 2)
 );
 
 INSERT INTO users (card_number, password, balance) VALUES
