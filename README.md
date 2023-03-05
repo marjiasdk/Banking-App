@@ -11,7 +11,7 @@ This is a simple banking app created with Python and the Tkinter GUI toolkit. Th
 
 # Getting Started
 
-To run the app, you will need to have Python and the Tkinter module installed on your system. You will also need to have a MySQL database set up with a "users" table containing the user's card number, password, and account balance.
+To run the app, you will need to have Python and the Tkinter module installed on your system. You will also need to have a MySQL database set up with a "users" table containing the user's name, card number, password, and account balance.
 
 To set up the database, you can use the following SQL script:
 ```
