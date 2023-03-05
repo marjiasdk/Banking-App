@@ -34,7 +34,7 @@ INSERT INTO users (name, card_number, password, balance) VALUES
 ('Sarah Lee', '4567890123456', 'passwordabc', 100.00),
 ('David Kim', '5678 901234567', 'passworddef', 50.00);
 ```
-Be sure to update the database connection details in the banking_app.py file to match your own MySQL server settings.
+Be sure to update the database connection details in the ```banking_app.py``` file to match your own MySQL server settings.
 <br></br>
 <i> I have omitted the password from my own code for privacy reasons, simply replace the empty space with the password to your MYSQL connection. </i>
 
