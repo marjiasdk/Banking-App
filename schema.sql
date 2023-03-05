@@ -7,7 +7,6 @@ USE banking;
 -- Creates a table named "users", this is where all the data is stored which is used in the program
 CREATE TABLE users (
   id INT PRIMARY KEY AUTO_INCREMENT,
-  name VARCHAR(255),
   card_number VARCHAR(16),
   password VARCHAR(255),
   balance DECIMAL(10, 2)
