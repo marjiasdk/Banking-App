@@ -1,6 +1,6 @@
 # Python Banking App
 
-This is a simple banking app created with Python and the Tkinter GUI toolkit. The app allows users to log in with their card number and password and view their account balance.
+This is a simple banking app created with Python and the Tkinter GUI toolkit. The app allows users to log in with their name, card number and password and view their account balance.
 
 # Technologies
 
@@ -20,15 +20,19 @@ CREATE DATABASE banking;
 USE banking;
 
 CREATE TABLE users (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    card_number VARCHAR(16)
-    password VARCHAR(255)
-    balance DECIMAL(10, 2)
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(255),
+  card_number VARCHAR(16),
+  password VARCHAR(255),
+  balance DECIMAL(10, 2)
 );
 
-INSERT INTO users (card_number, password, balance) VALUES
-('1234567890123456', 'password1', 1000.00),
-('9876543210987654', 'password2', 5000.00);
+INSERT INTO users (name, card_number, password, balance) VALUES
+('John Smith', '1234567890123', 'password123', 1000.00),
+('Jane Doe', '2345678901234', 'password456', 500.00),
+('Bob Johnson', '3456789012345', 'password789', 250.00),
+('Sarah Lee', '4567890123456', 'passwordabc', 100.00),
+('David Kim', '5678 901234567', 'passworddef', 50.00);
 ```
 Be sure to update the database connection details in the banking_app.py file to match your own MySQL server settings.
 <br></br>
@@ -36,9 +40,9 @@ Be sure to update the database connection details in the banking_app.py file to 
 
 # Usage
 
-To run the app, run the ```banking_app.py``` file in your Python environment. The app will open a window with fields for entering the card number and password.
+To run the app, run the ```banking_app.py``` file in your Python environment. The app will open a window with fields for entering a name, the card number and password.
 
-If the entered card number and password match a record in the database, the user's account balance will be displayed. If the details do not match, an error message will be displayed.
+If the entered name, card number and password match a record in the database, the user's account balance will be displayed. If the details do not match, an error message will be displayed.
 
 # License
 
