@@ -6,7 +6,7 @@ import mysql.connector
 bank_details = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="",
+    password="",
     database="banking"
 )
 
