@@ -2,7 +2,8 @@
 
 This is a simple banking app created with Python and the Tkinter GUI toolkit. The app allows users to log in with their card number and password and view their account balance.
 
-# Technologies used
+# Technologies
+
 * Python: a powerful and versatile programming language that is used widely in a variety of fields, from web development to data analysis.
 * Tkinter: a standard GUI toolkit for Python that allows developers to create desktop applications with a user interface.
 * MYSQL: a popular open-source relational database management system that provides fast and scalable storage for large amounts of data.
@@ -35,7 +36,7 @@ Be sure to update the database connection details in the banking_app.py file to 
 
 # Usage
 
-To run the app, run the banking_app.py file in your Python environment. The app will open a window with fields for entering the card number and password.
+To run the app, run the ```banking_app.py``` file in your Python environment. The app will open a window with fields for entering the card number and password.
 
 If the entered card number and password match a record in the database, the user's account balance will be displayed. If the details do not match, an error message will be displayed.
 
