@@ -26,12 +26,13 @@ def check_login():
     cursor.execute(query, (card_number, password)) # execute() executes the query and inserts the values in the placeholders
 
     # fetchone() returns the first row of the result
+    # result is a tuple containing the balance: (balance)
     result = cursor.fetchone()
 
     if result is None:
-        error_label.config(text="Invalid card number or password")
+        error_label.config(text="Invalid card number or password") # config() configures the widget
     else:
-        balance_label.config(text="Your Balance is: $" + str(result[0]))
+        balance_label.config(text="Your Balance is: €" + str(result[0])) # result[0] returns the balance from the tuple
 
 # create GUI
 window = Tk()
@@ -40,11 +41,13 @@ window.geometry("500x500")
 
 card_number_label = Label(window, text="Card Number: ")
 card_number_label.grid(row=0, column=0)
+
 card_number_entry = Entry(window)
 card_number_entry.grid(row=0, column=1)
 
 password_label = Label(window, text="Password: ")
 password_label.grid(row=1, column=0)
+
 password_entry = Entry(window, show="*")
 password_entry.grid(row=1, column=1)
 
