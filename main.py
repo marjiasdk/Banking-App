@@ -51,10 +51,10 @@ password_entry.grid(row=1, column=1)
 button = Button(window, text="Login", command=check_login) # command=check_login: calls the check_login() function when the button is clicked
 button.grid(row=2, column=1)
 
-balance_label = Label(window, text="")
-balance_label.grid(row=5, column=1)
+balance_label = Label(window)
+balance_label.grid(row=7, column=1)
 
-error_label = Label(window, text="", fg="red")
-error_label.grid(row=4, column=0)
+error_label = Label(window, foreground="red")
+error_label.grid(row=6, column=1)
 
 window.mainloop()
