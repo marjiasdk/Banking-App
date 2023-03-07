@@ -7,7 +7,7 @@ This is a simple banking app created with Python and the Tkinter GUI toolkit. Th
 * Python: a powerful and versatile programming language that is used widely in a variety of fields, from web development to data analysis.
 * Tkinter: a standard GUI toolkit for Python that allows developers to create desktop applications with a user interface.
 * MYSQL: a popular open-source relational database management system that provides fast and scalable storage for large amounts of data.
-* mysql-connector-python mpdule: a Python library that allows Python programs to access MySQL databases using the Python Database API specification.
+* mysql-connector-python module: a Python library that allows Python programs to access MySQL databases using the Python Database API specification.
 
 # Getting Started
 
