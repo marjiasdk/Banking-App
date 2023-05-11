@@ -1,15 +1,15 @@
-# Python Banking App
+## Python Banking App
 
 This is a simple banking app created with Python and the Tkinter GUI toolkit. The app allows users to log in with their name, card number and password and view their account balance.
 
-# Technologies
+## Technologies
 
 * Python: a powerful and versatile programming language that is used widely in a variety of fields, from web development to data analysis.
 * Tkinter: a standard GUI toolkit for Python that allows developers to create desktop applications with a user interface.
 * MYSQL: a popular open-source relational database management system that provides fast and scalable storage for large amounts of data.
 * mysql-connector-python module: a Python library that allows Python programs to access MySQL databases using the Python Database API specification.
 
-# Getting Started
+## Getting Started
 
 To run the app, you will need to have Python and the Tkinter module installed on your system. You will also need to have a MySQL database set up with a "users" table containing the user's name, card number, password, and account balance.
 
@@ -38,12 +38,12 @@ Be sure to update the database connection details in the ```banking_app.py``` fi
 <br></br>
 <i> I have omitted the password from my own code for privacy reasons, simply replace the empty space with the password to your MYSQL connection. </i>
 
-# Usage
+## Usage
 
 To run the app, run the ```banking_app.py``` file in your Python environment. The app will open a window with fields for entering a name, the card number and password.
 
 If the entered name, card number and password match a record in the database, the user's account balance will be displayed. If the details do not match, an error message will be displayed.
 
-# License
+## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this code for personal or commercial purposes. However, the original author(s) must be credited and this license statement must be included in all copies of the code.
