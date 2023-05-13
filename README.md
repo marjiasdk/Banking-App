@@ -46,4 +46,4 @@ If the entered name, card number and password match a record in the database, th
 
 ## License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute this code for personal or commercial purposes. However, the original author(s) must be credited and this license statement must be included in all copies of the code.
+This repository is licensed under the MIT License. See the LICENSE file for more information.
