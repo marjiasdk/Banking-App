@@ -21,12 +21,12 @@ class CheckLogin:
 
         # cursor object is used to execute queries
         # cursor() method creates a cursor object
-        cursor = bank_details.cursor()
+        cur = bank_details.cursor()
         query = "SELECT balance FROM users WHERE name =%s AND card_number=%s AND password=%s"
-        cursor.execute(query, (self.name, self.card_number, self.password))
+        cur.execute(query, (self.name, self.card_number, self.password))
 
         # fetchone() method returns the first row of the result
-        balance = cursor.fetchone()
+        balance = cur.fetchone()
 
         if balance is None:
             error_label.config(text="Invalid name or card number or password")
