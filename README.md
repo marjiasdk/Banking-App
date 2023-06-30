@@ -44,6 +44,10 @@ To run the app, run the ```banking_app.py``` file in your Python environment. Th
 
 If the entered name, card number and password match a record in the database, the user's account balance will be displayed. If the details do not match, an error message will be displayed.
 
+## Demo Video
+
+https://github.com/marjiasdk/Banking-App/assets/113689930/dd5cbbca-968e-42bf-95d9-db4619660812
+
 ## License
 
 This repository is licensed under the MIT License. See the LICENSE file for more information.
